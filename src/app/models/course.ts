@@ -4,4 +4,5 @@ export class Course {
     category: string;
     online: boolean;
     value: number;
+    imgsrc: string;
 }

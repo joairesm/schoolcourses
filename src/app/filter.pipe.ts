@@ -38,14 +38,13 @@ export class FilterPipe {
             }
         }
         
+        if(filter.value){
+            if(filter.value < c.value){
+                newList.splice(index,1);
+                return;
+            }
+        }
         
-
-
-    //     if((ACTIVE.includes(searchText.toLowerCase())) && s.active) newList.push(s);
-    //     if((DEACTIVATE.includes(searchText.toLowerCase()))
-    //     && searchText.startsWith('de') && !s.active) newList.push(s);
-    //     if(s.number.toString().includes(searchText)) newList.push(s);
-    //     if(s.subscription.name.toLowerCase().includes(searchText)) newList.push(s);
      });
     return newList; 
 

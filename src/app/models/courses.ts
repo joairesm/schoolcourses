@@ -5,6 +5,7 @@ export var courses = [
         category: "math",
         online: true,
         value: 200,
+        imgsrc: "https://www.mathsisfun.com/calculus/images/integral-area.gif"
     },
     {
         name: "World War 1",
@@ -12,6 +13,7 @@ export var courses = [
         category: "history",
         online: false,
         value: 0,
+        imgsrc: "https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/01/07/19/pg-18-ww1-1-getty.jpg?w968h681"
     },
     {
         name: "Quantum Mechanics",
@@ -19,6 +21,7 @@ export var courses = [
         category: "science",
         online: true,
         value: 0,
+        imgsrc: "https://online.stanford.edu/sites/default/files/styles/figure_default/public/2018-09/quantum-mechanics-for-scientists-engineers_SOE-YEEQMSE01.jpg?itok=KKZKLf5_"
     },
     {
         name: "History of Europe",
@@ -26,6 +29,7 @@ export var courses = [
         category: "history",
         online: false,
         value: 100,
+        imgsrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Abraham_Ortelius_Map_of_Europe.jpg/1920px-Abraham_Ortelius_Map_of_Europe.jpg"
     },
     {
         name: "Trigonometry",
@@ -33,6 +37,7 @@ export var courses = [
         category: "math",
         online: true,
         value: 5,
+        imgsrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Circle-trig6.svg/1280px-Circle-trig6.svg.png"
     },
     {
         name: "Pythagorean Theorem",
@@ -40,6 +45,7 @@ export var courses = [
         category: "math",
         online: true,
         value: 50,
+        imgsrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Pythagorean.svg/260px-Pythagorean.svg.png"
     },
     {
         name: "Organic Chemistry",
@@ -47,5 +53,6 @@ export var courses = [
         category: "science",
         online: false,
         value: 175,
+        imgsrc: "https://s11452.pcdn.co/wp-content/uploads/2015/05/ddva2.png"
     }
 ]

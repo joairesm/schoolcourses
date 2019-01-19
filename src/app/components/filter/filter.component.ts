@@ -13,6 +13,7 @@ export class FilterComponent {
 
     constructor() {
         this.filter = new Filter();
+        this.filter.value=200;
     }
 
     onFilterChange(){
