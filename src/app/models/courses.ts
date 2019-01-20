@@ -27,7 +27,7 @@ export var courses = [
         name: "History of Europe",
         description: "The history of Europe covers the peoples inhabiting Europe from prehistory to the present.",
         category: "history",
-        online: false,
+        online: true,
         value: 100,
         imgsrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Abraham_Ortelius_Map_of_Europe.jpg/1920px-Abraham_Ortelius_Map_of_Europe.jpg"
     },
@@ -43,7 +43,7 @@ export var courses = [
         name: "Pythagorean Theorem",
         description: "In mathematics, the Pythagorean theorem, also known as Pythagoras' theorem, is a fundamental relation in Euclidean geometry among the three sides of a right triangle.",
         category: "math",
-        online: true,
+        online: false,
         value: 50,
         imgsrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Pythagorean.svg/260px-Pythagorean.svg.png"
     },
